@@ -27,6 +27,8 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: siddharth2016/update-readme-image@main
+          with:
+            IMG_PATH: .github/images/eaton-mobile-logo.png
 
   # Build job
   build:
